@@ -1,2 +1,2 @@
-public class roomsandmore {
+public class Building {
 }
