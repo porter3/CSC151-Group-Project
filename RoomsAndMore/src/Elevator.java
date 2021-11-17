@@ -4,6 +4,7 @@ public class Elevator extends Room {
 
    public Elevator(int area) {
        super(area);
+       currentFloor = 0;
    }
   
    public void up(int floors) {
