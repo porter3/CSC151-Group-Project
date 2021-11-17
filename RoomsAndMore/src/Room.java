@@ -11,6 +11,13 @@ public class Room {
    public int getCapacity() {
        return (this.area / 9);
    }
+   
+   /**
+    * Sets the area of the room
+    */
+   public void setSquareFeet(int area) {
+	   this.area = area;
+   }
 
    @Override
    public String toString() {
