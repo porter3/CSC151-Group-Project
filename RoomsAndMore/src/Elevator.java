@@ -6,6 +6,10 @@ public class Elevator extends Room {
        super(area);
        currentFloor = 0;
    }
+   
+   public int getCurrentFloor() {
+	   return currentFloor;
+   }
   
    public void up(int floors) {
        this.currentFloor += floors;
