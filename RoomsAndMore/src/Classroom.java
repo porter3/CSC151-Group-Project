@@ -4,6 +4,7 @@ public class Classroom extends Room {
   
    public Classroom(int area) {
        super(area);
+       noOfChairs = 0;
    }
 
    public Classroom(int area, int noOfChairs) {
